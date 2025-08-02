@@ -10,6 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "crypto": "^1.0.1"
+    "@noble/ed25519": "^2.3.0",
+    "@solana/web3.js": "^1.98.4",
+    "crypto": "^1.0.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
   }
 }
